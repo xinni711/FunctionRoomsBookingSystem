@@ -7,9 +7,11 @@ Go School - Module 2 (Go Advanced) Assignment
 
 # Revision
 
-| Revision   |                        Changes                          |
+|  Revision  |                        Changes                          |
 | ---------- | :-----------------------------------------------------: |
-| 1.0        |    Initial Commit with basic console application.       |
-| 2.0        |    Update to Server-Client Application.                 |
-| 3.0        |    Update with security features and go documentation.  |
+|    1.0     |    Initial Commit with basic console application.       |
+|    2.0     |    Update to Server-Client Application.                 |
+|    3.0     |    Update with security features and go documentation.  |
+
+# Features
 
