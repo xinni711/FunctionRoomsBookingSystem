@@ -16,3 +16,14 @@ Go School - Module 2 (Go Advanced) Assignment
 # Features
 
 To Be Updated
+
+# Data Structure & Algorithms
+
+1. Array-based list (Slice of Struct)
+2. Linked list 
+3. Binary Search
+4. Selection Sort
+
+# Error Handling and Concurrency Mechanism
+
+To Be Updated
