@@ -47,7 +47,7 @@ Refer to V3.0/goDocumentation for documentations of different packages
 <img src="screenshots/GuestAccess.png" alt="Guest Access and Login Page" width=800px height=400px/>
 
 3. Once login, registered user can access to more features than guest access.
-<img src="screenshots/RegisteredUserLogin.png" alt="Registered User Login Page" width=600px height=300px/>
+<img src="screenshots/RegisteredUserLogin.png" alt="Registered User Login Page" width=700px height=300px/>
 
 4. Admin will be able to view the whole booking list and delete booking by booking ID.
 <img src="screenshots/AdminLogin.png" alt="Admin Login Page" width=550px height=350px/>
