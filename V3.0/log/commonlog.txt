@@ -1,0 +1,22 @@
+WARNING: 2021/03/26 08:46:11 loginlogout.go:81: Attempt to signup with invalid first name.- Key: '' Error:Field validation for '' failed on the 'max' tag
+WARNING: 2021/03/26 08:46:11 loginlogout.go:97: Attempt to signup with invalid username.- Key: '' Error:Field validation for '' failed on the 'alphanum' tag
+WARNING: 2021/03/26 08:46:11 loginlogout.go:105: Attempt to signup with invalid password.- Key: '' Error:Field validation for '' failed on the 'alphanum' tag
+INFO: 2021/03/27 19:59:10 loginlogout.go:153: New user signed up.
+INFO: 2021/03/27 19:59:33 booking.go:287: Booking is confirmed. Venue booked is 8 Slots booked: [251208 251308 251408 251508]
+WARNING: 2021/03/27 19:59:51 loginlogout.go:204: Failed login attempt.
+INFO: 2021/03/27 20:21:00 booking.go:80: Bookings preloaded done!
+INFO: 2021/03/27 21:01:24 loginlogout.go:154: New user signed up.
+INFO: 2021/03/27 21:01:47 booking.go:287: Booking is confirmed. Venue booked is 7 Slots booked: [271207 271307 271407 271507]
+INFO: 2021/03/27 21:19:09 booking.go:80: Bookings preloaded done!
+INFO: 2021/03/27 22:12:00 main.go:45: Log integrity of common log is OK.
+INFO: 2021/03/27 22:12:00 main.go:63: Log integrity of error log is OK.
+INFO: 2021/03/27 22:12:00 booking.go:80: Bookings preloaded done!
+INFO: 2021/03/27 22:13:20 booking.go:124: Booking, invalid time selection detected
+INFO: 2021/03/27 22:13:29 booking.go:287: Booking is confirmed. Venue booked is 6 Slots booked: [181006 181106]
+INFO: 2021/03/27 22:13:39 update.go:22: Removed Booked Slot [171001 171101]
+INFO: 2021/03/27 22:14:42 booking.go:80: Bookings preloaded done!
+INFO: 2021/03/27 22:16:01 booking.go:287: Booking is confirmed. Venue booked is 7 Slots booked: [301207 301307 301407]
+INFO: 2021/04/13 21:52:06 main.go:45: Log integrity of common log is OK.
+INFO: 2021/04/13 21:52:06 main.go:63: Log integrity of error log is OK.
+INFO: 2021/04/13 21:52:06 booking.go:80: Bookings preloaded done!
+INFO: 2021/04/13 21:55:38 booking.go:80: Bookings preloaded done!

@@ -1,0 +1,8 @@
+FATAL: 2021/03/25 11:15:13 main.go:56: ListenAndServe:  listen tcp :5221: bind: address already in use
+ERROR: 2021/03/27 19:44:38 main.go:47: File Tampering of common log detected.
+ERROR: 2021/03/27 19:44:38 main.go:65: File Tampering of error log detected.
+
+FATAL: 2021/04/13 21:55:21 loginlogout.go:232: html/template:login.gohtml: "<" in attribute name: "\n    <input type=\"submit\">\n</for"
+ERROR: 2021/04/13 21:55:38 main.go:47: File Tampering of common log detected.
+ERROR: 2021/04/13 21:55:38 main.go:65: File Tampering of error log detected.
+FATAL: 2021/04/13 21:55:43 loginlogout.go:232: html/template:login.gohtml: "<" in attribute name: "\n    <input type=\"submit\">\n</for"

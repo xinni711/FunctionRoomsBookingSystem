@@ -1,0 +1,74 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>This is loaded if index.html is found</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Function Rooms Booking System">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=B612&display=swap" rel="stylesheet">
+        <style>
+            h1{
+                color:#355070;
+                font-family: 'B612', sans-serif;
+                width:50%;
+                text-align: center;
+            }
+            p{
+                color:#355070;
+                font-family: 'B612', sans-serif;
+                width:50%;
+                text-align: center;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+            }
+            ul li a {
+                display: block;
+                width: 30%;
+                text-decoration: none;
+                
+                padding: 1em 7em;
+                margin: 1em 0;
+                background-color: #355070;
+                color: white;
+                font-family: 'B612', sans-serif;
+            }
+
+            ul li a:hover {
+                background-color: #6d597a;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <h1>Function Rooms Booking System</h1>
+
+        {{if .FirstName}}
+        <p>You are login as {{.UserName}}. <a href="/logout">LogOut?</a><br></p>
+        {{end}}
+        {{$user:=.UserName}}
+        <ul>
+            <li><a href="/browseVenue">Browse Venue and Availability</a></li>
+            <li><a href="/searchVenue">Search for Available Venue</a></li>
+            <li> <a href="/bookVenue">Book Venue (Login is required)</a></li>
+            {{if .FirstName }}
+            {{if ne $user "admin"}}
+            <li> <a href="/browseBooking">Browse My Booking</a></li>
+            {{end}}
+            {{end}}
+            {{if eq $user "admin"}}
+            <li> <a href="/removeBooking">Remove Booking (For Admin Only)</a></li>
+            <li> <a href="/browseBooking">Browse Booking List (For Admin Only)</a></li>
+            {{end}}
+        </ul>
+        
+
+    </body>
+
+</html>

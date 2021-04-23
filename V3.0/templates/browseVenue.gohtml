@@ -1,0 +1,70 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Browse Venue and Availability</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Function Rooms Booking System">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=B612&display=swap" rel="stylesheet">
+        <style>
+            body{
+                color:#355070;
+                font-family: 'B612', sans-serif;
+                padding-left: 1em;
+            }
+            ol li{
+                margin: 5px;
+            }
+            form input{
+                margin: 10px;
+            }
+           
+
+        </style>
+    </head>
+
+    <body>
+
+        <h2>Browse Venue and Availability</h2>
+
+        <h3>List of venues</h3>
+        <ol>
+            {{range .}}
+            <li>Room Name: {{.Name}} ,  Type: {{.Kind}} ,  Capacity: {{.Capacity}} </li>
+            {{end}}
+        </ol>
+
+        <h3>Please select the room</h3>
+        <form method="post">
+            <input type="radio" id="room1" name="roomChoice" value="1">
+            <label for="room1">MR01</label>
+            <input type="radio" id="room2" name="roomChoice" value="2">
+            <label for="room2">MR02</label>
+            <input type="radio" id="room3" name="roomChoice" value="3">
+            <label for="room3">MR03</label>
+            <input type="radio" id="room4" name="roomChoice" value="4">
+            <label for="room4">MR04</label>
+            <input type="radio" id="room5" name="roomChoice" value="5">
+            <label for="room5">MR05</label><br>
+            <input type="radio" id="room6" name="roomChoice" value="6">
+            <label for="room6">AR06</label>
+            <input type="radio" id="room7" name="roomChoice" value="7">
+            <label for="room7">AR07</label>
+            <input type="radio" id="room8" name="roomChoice" value="8">
+            <label for="room8">AR08</label>
+            <input type="radio" id="room9" name="roomChoice" value="9">
+            <label for="room9">AD09</label>
+            <input type="radio" id="room10" name="roomChoice" value="10">
+            <label for="room10">AD10</label><br>
+            <input type="submit">
+        </form>
+
+        <p> Click <a href="/menu">here</a> to return to main menu. &nbsp; <a href="/logout">LogOut?</a><br></p>
+
+    
+       
+
+    </body>
+
+</html>

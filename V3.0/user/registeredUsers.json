@@ -1,0 +1,38 @@
+{
+ "admin": {
+  "FirstName": "Matthew",
+  "LastName": "Lee",
+  "UserName": "admin",
+  "Password": "JDJhJDA0JHhLYlJXNnMzMFhiMUhhM3ZEZEJBcy56WkRmZzk4WG5uVnA2S0lJZ1VHeFFwQXpveUk0TzJT"
+ },
+ "leeken": {
+  "FirstName": "Ken",
+  "LastName": "Lee",
+  "UserName": "leeken",
+  "Password": "JDJhJDA0JDNvT29sZUtEeGpnbEE5TUZnbmVPZ08zVXJHT1B4S2cyNUx4bVk2RHN5LmROd25GTnQ1VWJX"
+ },
+ "limchristina": {
+  "FirstName": "Christina",
+  "LastName": "Lim",
+  "UserName": "limchristina",
+  "Password": "JDJhJDA0JFc5RjdEM1ZtbWplaGpOQkRVbkREUXVSVE9jY0FRRlZWS3pTOEE3OHBOSXIzZmk4cWJjSTdt"
+ },
+ "ongryan": {
+  "FirstName": "Ryan",
+  "LastName": "Ong",
+  "UserName": "ongryan",
+  "Password": "JDJhJDA0JDJkRzYuZHVuTk54Q0pwcmIuZjBOVC5BVTlIU2kvanhZZ3FaaUgwYVhnRVpmei96cHlRTjIy"
+ },
+ "tanalison": {
+  "FirstName": "Alison",
+  "LastName": "Tan",
+  "UserName": "tanalison",
+  "Password": "JDJhJDA0JGtCV1VKVnBVeDd1eFE0VFVhWkRXZ3VlMDRrVGFaQ28uZkFIRklZUm1Gd1Fua2MyWEZJY09L"
+ },
+ "tanmike": {
+  "FirstName": "Mike",
+  "LastName": "Tan",
+  "UserName": "tanmike",
+  "Password": "JDJhJDA0JHMySjNDMDNjckdWMm5VdWx3alAubU9RVWJXenF6Y0lIOGhqZTA3dy5JTG9XOEVYZkZINi9H"
+ }
+}

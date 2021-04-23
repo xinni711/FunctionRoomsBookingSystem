@@ -1,0 +1,46 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Display Daily Venue Availability</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Function Rooms Booking System">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=B612&display=swap" rel="stylesheet">
+        <style>
+            body{
+                color:#355070;
+                font-family: 'B612', sans-serif;
+                padding-left: 1em;
+            }
+            ol li{
+                margin: 5px;
+            }
+            form input{
+                margin: 10px;
+            }
+            tr {
+                background-color: #f2f2f2;
+            }
+            td{
+            text-align:center;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <table style="width:50%">
+            <tr>
+            <td>{{if lt .Day 10 }}0{{end}}{{.Day}}</td>
+            {{range .SlotToPrint}}
+                <td> {{if .Available}} 1  {{else}} 0  {{end}}</td>
+            {{end}}
+            </tr>
+            
+        </table>
+
+    </body>
+
+</html>

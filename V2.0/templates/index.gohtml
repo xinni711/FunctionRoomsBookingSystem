@@ -1,0 +1,67 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Welcome Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Function Rooms Booking System">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=B612&display=swap" rel="stylesheet">
+        <style>  
+            h2{
+                color:#355070;
+                font-family: 'B612', sans-serif;
+                width: 50%;
+                text-align: center;
+            }
+            p{
+                color:#355070;
+                font-family: 'B612', sans-serif;
+                width: 50%;
+                text-align: center;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+            }
+            a {
+                display: block;
+                width: 30%;
+                text-decoration: none;
+                padding: 1em 7em;
+                margin: 1em 0;
+                background-color: #355070;
+                color: white;
+                font-family: 'B612', sans-serif;
+            }
+
+            a:hover {
+                background-color: #6d597a;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <h2>Welcome to Function Rooms Booking System</h2>
+
+        {{if .FirstName}}
+        <p>You are login as {{.UserName}}<br></p>
+        <ul>
+            <li><a href="/menu">Enter</a></li>
+            <li><a href="/logout">Log Out</a></li>
+        </ul>
+        {{else}}
+        <ul>
+            <li><a href="/login">Login</a></li>
+            <li><a href="/signup">Sign Up</a></li>
+            <li><a href="/menu">Browse as Guest</a></li>
+        </ul>
+        {{end}}
+
+    </body>
+
+</html>
