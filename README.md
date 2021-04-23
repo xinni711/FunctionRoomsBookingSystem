@@ -15,14 +15,14 @@ Go School - Module 2 (Go Advanced) Assignment
 
 # Features
 
-<img src="screenshots/Features.png" alt="Features Table for FunctionRooms Booking System" width=600px height=250px/>
-<img src="screenshots/GuestAccess.png" alt="Guest Access and Login Page" width=600px height=300px/>
+<img src="screenshots/Features.png" alt="Features Table for FunctionRooms Booking System" width=600px height=200px/>
+<img src="screenshots/GuestAccess.png" alt="Guest Access and Login Page" width=800px height=300px/>
 <img src="screenshots/RegisteredUserlogin.png" alt="Registered User Login Page" width=600px height=150px/>
-<img src="screenshots/AdminLogin.png" alt="Registered User Login Page" width=600px height=450px/>
-<img src="screenshots/BrowseVenue.png" alt="Browse Venue Feature Demo" width=600px height=350px/>
-<img src="screenshots/SearchFeature.png" alt="Search Venue Feature Demo" width=600px height=400px/>
-<img src="screenshots/BookingFeature.png" alt="Booking Venue Feature Demo" width=600px height=400px/>
-<img src="screenshots/RemoveBooking.png" alt="Remove Booking Feature Demo" width=600px height=400px/>
+<img src="screenshots/AdminLogin.png" alt="Registered User Login Page" width=600px height=400px/>
+<img src="screenshots/BrowseVenue.png" alt="Browse Venue Feature Demo" width=600px height=300px/>
+<img src="screenshots/SearchFeature.png" alt="Search Venue Feature Demo" width=600px height=350px/>
+<img src="screenshots/BookingFeature.png" alt="Booking Venue Feature Demo" width=600px height=350px/>
+<img src="screenshots/RemoveBooking.png" alt="Remove Booking Feature Demo" width=600px height=350px/>
 <img src="screenshots/BrowseBookingListAdmin.png" alt="Browse Booking List Feature (Admin) Demo" width=600px height=350px/>
 <img src="screenshots/BrowseBookingListUser.png" alt="Browse Booking List Feature Demo" width=600px height=150px/>
 
@@ -32,14 +32,14 @@ Go School - Module 2 (Go Advanced) Assignment
 3. Incorporate concurrency for searching algorithms to ensure searching for different function rooms can be done concurrrently.
 4. Code defensively to include error handling and panic handling in the code.
 
-The 
+
 # V2.0
 1. Setup of HTTP connection 
 2. Setup web browser for the application using templates
 3. Modify the source code to be ensure it can handle concurrency - different request from multiple clients.
 
 # V3.0
-##Security Features
+## Security Features
 1. Input Validation
 2. Sanitization of Input to prevent XSS
 3. Setup HTTPS, generate Open SSL cert
@@ -49,5 +49,5 @@ The
 7. Password Hashing (Brycpt)
 8. Generate cookie (UUID), expiry time, prevent multi-login
 
-##Idiomatic Go and Go Documentations
+## Idiomatic Go and Go Documentations
 Refer to V3.0/goDocumentation for documentations of different packages
