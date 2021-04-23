@@ -50,7 +50,7 @@ Refer to V3.0/goDocumentation for documentations of different packages
 <img src="screenshots/RegisteredUserLogin.png" alt="Registered User Login Page" width=600px height=150px/>
 
 4. Admin will be able to view the whole booking list and delete booking by booking ID.
-<img src="screenshots/AdminLogin.png" alt="Admin Login Page" width=600px height=400px/>
+<img src="screenshots/AdminLogin.png" alt="Admin Login Page" width=550px height=300px/>
 
 5. Below is display of different features:
     a)
@@ -71,9 +71,9 @@ Refer to V3.0/goDocumentation for documentations of different packages
     
     e)
     
-    <img src="screenshots/BrowseBookingListAdmin.png" alt="Browse Booking List Feature (Admin) Demo" width=600px height=350px/>
+    <img src="screenshots/BrowseBookingListAdmin.png" alt="Browse Booking List Feature (Admin) Demo" width=600px height=300px/>
     
     f)
     
-    <img src="screenshots/BrowseBookingListUser.png" alt="Browse Booking List Feature Demo" width=600px height=150px/>
+    <img src="screenshots/BrowseBookingListUser.png" alt="Browse Booking List Feature Demo" width=600px height=120px/>
 
