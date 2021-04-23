@@ -5,9 +5,9 @@ An application that incorporates data structures and algorithms, network program
 
 Go School - Module 2 (Go Advanced) Assignment
 
-# Revision
+# Version
 
-|  Revision  |                        Changes                          |
+|  Version   |                        Changes                          |
 | ---------- | :-----------------------------------------------------: |
 |    1.0     |    Initial Commit with basic console application.       |
 |    2.0     |    Update to Server-Client Application.                 |
