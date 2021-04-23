@@ -54,20 +54,26 @@ Refer to V3.0/goDocumentation for documentations of different packages
 
 5. Below is display of different features:
     a)
+    
     <img src="screenshots/BrowseVenue.png" alt="Browse Venue Feature Demo" width=600px height=300px/>
     
     b)
+    
     <img src="screenshots/SearchFeature.png" alt="Search Venue Feature Demo" width=600px height=350px/>
     
     c)
+    
     <img src="screenshots/BookingFeature.png" alt="Booking Venue Feature Demo" width=600px height=350px/>
     
     d)
+    
     <img src="screenshots/RemoveBooking.png" alt="Remove Booking Feature Demo" width=600px height=350px/>
     
     e)
+    
     <img src="screenshots/BrowseBookingListAdmin.png" alt="Browse Booking List Feature (Admin) Demo" width=600px height=350px/>
     
     f)
+    
     <img src="screenshots/BrowseBookingListUser.png" alt="Browse Booking List Feature Demo" width=600px height=150px/>
 
