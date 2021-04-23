@@ -13,19 +13,6 @@ Go School - Module 2 (Go Advanced) Assignment
 |    2.0     |    Update to Server-Client Application.                 |
 |    3.0     |    Update with security features and go documentation.  |
 
-# Features
-
-<img src="screenshots/Features.png" alt="Features Table for FunctionRooms Booking System" width=600px height=200px/>
-<img src="screenshots/GuestAccess.png" alt="Guest Access and Login Page" width=800px height=300px/>
-<img src="screenshots/RegisteredUserlogin.png" alt="Registered User Login Page" width=600px height=150px/>
-<img src="screenshots/AdminLogin.png" alt="Registered User Login Page" width=600px height=400px/>
-<img src="screenshots/BrowseVenue.png" alt="Browse Venue Feature Demo" width=600px height=300px/>
-<img src="screenshots/SearchFeature.png" alt="Search Venue Feature Demo" width=600px height=350px/>
-<img src="screenshots/BookingFeature.png" alt="Booking Venue Feature Demo" width=600px height=350px/>
-<img src="screenshots/RemoveBooking.png" alt="Remove Booking Feature Demo" width=600px height=350px/>
-<img src="screenshots/BrowseBookingListAdmin.png" alt="Browse Booking List Feature (Admin) Demo" width=600px height=350px/>
-<img src="screenshots/BrowseBookingListUser.png" alt="Browse Booking List Feature Demo" width=600px height=150px/>
-
 # V1.0
 1. Setup different data structures such as linked list, struct, array bases list, etc for this application.
 2. Incorporate search and sorting algorithms in the application such as binary search, selection sort etc.
@@ -51,3 +38,36 @@ Go School - Module 2 (Go Advanced) Assignment
 
 ## Idiomatic Go and Go Documentations
 Refer to V3.0/goDocumentation for documentations of different packages
+
+# Features
+1. All the features that have been setup for this application are as below. 
+<img src="screenshots/Features.png" alt="Features Table for FunctionRooms Booking System" width=600px height=200px/>
+
+2. Pages that will be seen by guest of the application (No login required.)
+<img src="screenshots/GuestAccess.png" alt="Guest Access and Login Page" width=800px height=400px/>
+
+3. Once login, registered user can access to more features than guest access.
+<img src="screenshots/RegisteredUserLogin.png" alt="Registered User Login Page" width=600px height=150px/>
+
+4. Admin will be able to view the whole booking list and delete booking by booking ID.
+<img src="screenshots/AdminLogin.png" alt="Admin Login Page" width=600px height=400px/>
+
+5. Below is display of different features:
+    a)
+    <img src="screenshots/BrowseVenue.png" alt="Browse Venue Feature Demo" width=600px height=300px/>
+    
+    b)
+    <img src="screenshots/SearchFeature.png" alt="Search Venue Feature Demo" width=600px height=350px/>
+    
+    c)
+    <img src="screenshots/BookingFeature.png" alt="Booking Venue Feature Demo" width=600px height=350px/>
+    
+    d)
+    <img src="screenshots/RemoveBooking.png" alt="Remove Booking Feature Demo" width=600px height=350px/>
+    
+    e)
+    <img src="screenshots/BrowseBookingListAdmin.png" alt="Browse Booking List Feature (Admin) Demo" width=600px height=350px/>
+    
+    f)
+    <img src="screenshots/BrowseBookingListUser.png" alt="Browse Booking List Feature Demo" width=600px height=150px/>
+
