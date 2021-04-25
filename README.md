@@ -44,7 +44,7 @@ Refer to V3.0/goDocumentation for documentations of different packages
 <img src="screenshots/Features.png" alt="Features Table for FunctionRooms Booking System" width=600px height=200px/>
 
 2. Pages that will be seen by guest of the application (No login required.)
-<img src="screenshots/GuestAccess.png" alt="Guest Access and Login Page" width=800px height=400px/>
+<img src="screenshots/GuestAccess.png" alt="Guest Access and Login Page" width=800px height=380px/>
 
 3. Once login, registered user can access to more features than guest access.
 <img src="screenshots/RegisteredUserLogin.png" alt="Registered User Login Page" width=700px height=300px/>
