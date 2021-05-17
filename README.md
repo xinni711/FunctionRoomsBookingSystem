@@ -41,7 +41,7 @@ Refer to V3.0/goDocumentation for documentations of different packages
 
 # Features
 1. All the features that have been setup for this application are as below. 
-<img src="screenshots/Features.png" alt="Features Table for FunctionRooms Booking System" width=600px height=200px/>
+<img src="screenshots/Features.png" alt="Features Table for FunctionRooms Booking System" />
 
 2. Pages that will be seen by guest of the application (No login required.)
 <img src="screenshots/GuestAccess.png" alt="Guest Access and Login Page" width=800px height=350px/>
