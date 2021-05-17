@@ -44,37 +44,37 @@ Refer to V3.0/goDocumentation for documentations of different packages
 <img src="screenshots/Features.png" alt="Features Table for FunctionRooms Booking System" />
 
 2. Pages that will be seen by guest of the application (No login required.)
-<img src="screenshots/GuestAccess.png" alt="Guest Access and Login Page" width=800px height=350px/>
+<img src="screenshots/GuestAccess.png" alt="Guest Access and Login Page" />
 
 3. Once login, registered user can access to more features than guest access.
-<img src="screenshots/RegisteredUserLogin.png" alt="Registered User Login Page" width=700px height=300px/>
+<img src="screenshots/RegisteredUserLogin.png" alt="Registered User Login Page" />
 
 4. Admin will be able to view the whole booking list and delete booking by booking ID.
-<img src="screenshots/AdminLogin.png" alt="Admin Login Page" width=550px height=350px/>
+<img src="screenshots/AdminLogin.png" alt="Admin Login Page" />
 
 5. Below is display of different features:
    
     a)
     
-    <img src="screenshots/BrowseVenue.png" alt="Browse Venue Feature Demo" width=700px height=350px/>
+    <img src="screenshots/BrowseVenue.png" alt="Browse Venue Feature Demo" />
     
     b)
     
-    <img src="screenshots/SearchFeature.png" alt="Search Venue Feature Demo" width=600px height=350px/>
+    <img src="screenshots/SearchFeature.png" alt="Search Venue Feature Demo" />
     
     c)
     
-    <img src="screenshots/BookingFeature.png" alt="Booking Venue Feature Demo" width=600px height=350px/>
+    <img src="screenshots/BookingFeature.png" alt="Booking Venue Feature Demo" />
     
     d)
     
-    <img src="screenshots/RemoveBooking.png" alt="Remove Booking Feature Demo" width=600px height=350px/>
+    <img src="screenshots/RemoveBooking.png" alt="Remove Booking Feature Demo" />
     
     e)
     
-    <img src="screenshots/BrowseBookingListAdmin.png" alt="Browse Booking List Feature (Admin) Demo" width=600px height=300px/>
+    <img src="screenshots/BrowseBookingListAdmin.png" alt="Browse Booking List Feature (Admin) Demo" />
     
     f)
     
-    <img src="screenshots/BrowseBookingListUser.png" alt="Browse Booking List Feature Demo" width=600px height=120px/>
+    <img src="screenshots/BrowseBookingListUser.png" alt="Browse Booking List Feature Demo" />
 
